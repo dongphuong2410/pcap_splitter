@@ -1,0 +1,8 @@
+# Test pkt_sender with simple receiver
+$ cd simple_receiver
+$ ./pkt_receiver 0
+$ ./pkt_receiver 1
+
+$ cd pcap_splitter
+$ ./pkt_sender
+
